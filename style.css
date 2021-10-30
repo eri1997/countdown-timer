@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  background-color: #1e1f29;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.top-image {
+  position: absolute;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.countdown p {
+  background-color: #343650;
+  border-radius: 5px;
+  color: #fb6087;
+  width: 150px;
+  font-size: 45px;
+  padding: 15px;
+}
+
+.countdown div {
+  margin: 10px;
+}
+
+.countdown h4 {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+p {
+  color: red;
+  background-color: yellow;
+  font-size: 40px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.socials {
+  position: absolute;
+  bottom: 50px;
+  z-index: 2;
+}
+
+.socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials ul li {
+  margin: 0 10px;
+}
+
+@media (min-width: 1440px) {
+  .top-image img,
+  .bottom-image img {
+    width: 1950px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container p {
+    width: 70px;
+    font-size: 30px;
+    padding: 4px;
+    height: 60px;
+  }
+  .container h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
